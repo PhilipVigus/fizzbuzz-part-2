@@ -24,4 +24,8 @@ describe 'fizzbuzz' do
     expect(7.fizzbuzz).to eq 7
     expect(19.fizzbuzz).to eq 19
   end
+
+  it 'returns 0 for if the number is 0' do
+    expect(0.fizzbuzz).to eq 0
+  end
 end
