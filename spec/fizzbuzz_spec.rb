@@ -14,4 +14,9 @@ describe 'fizzbuzz' do
     expect(5.fizzbuzz).to eq "Buzz"
     expect(11.fizzbuzz).to_not eq "Buzz"
   end
+
+  it 'returns "Fizzbuzz" for multiples of 3 and 5' do
+    expect(15.fizzbuzz).to eq "Fizzbuzz"
+    expect(30.fizzbuzz).to eq "Fizzbuzz"
+  end
 end
